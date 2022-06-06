@@ -244,7 +244,7 @@ if( gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_
 }if ( gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1 = gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_0;
-gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13968556);
+gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13032668);
 }
 }}
 if (gdjs.evtsExt__DragCameraWithPointer__DragCameraWithPointer.condition1IsTrue_0.val) {

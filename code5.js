@@ -178,7 +178,7 @@ gdjs.InviteCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.InviteCode.condition1IsTrue_0.val ) {
 {
 {gdjs.InviteCode.conditionTrue_1 = gdjs.InviteCode.condition2IsTrue_0;
-gdjs.InviteCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13557028);
+gdjs.InviteCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12802892);
 }
 }}
 }
