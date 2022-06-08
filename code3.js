@@ -32,7 +32,7 @@ gdjs.TestingCode.condition1IsTrue_1 = {val:false};
 gdjs.TestingCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TestingCode.userFunc0xac0318 = function(runtimeScene) {
+gdjs.TestingCode.userFunc0xb27ac0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -249,7 +249,7 @@ if (gdjs.TestingCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.TestingCode.userFunc0xac0318(runtimeScene);
+gdjs.TestingCode.userFunc0xb27ac0(runtimeScene);
 
 }
 

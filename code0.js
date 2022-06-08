@@ -977,7 +977,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Processing"), gdjs.DashboardCode.GDProcessingObjects2);
 gdjs.copyArray(runtimeScene.getObjects("WhiteBG"), gdjs.DashboardCode.GDWhiteBGObjects2);
 {gdjs.evtTools.firebaseTools.firestore.getDocument("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), runtimeScene.getVariables().get("FetchDocData"), runtimeScene.getVariables().get("FetchedDataStatus"));
-}{gdjs.evtTools.firebaseTools.firestore.getDocument("AppInfo", "Info", runtimeScene.getVariables().get("Fetchappinfo"), runtimeScene.getVariables().get("FetchappinfoStatus"));
+}{firebase.remoteConfig().fetchAndActivate();
 }{for(var i = 0, len = gdjs.DashboardCode.GDProcessingObjects2.length ;i < len;++i) {
     gdjs.DashboardCode.GDProcessingObjects2[i].setX(0);
 }
@@ -2559,7 +2559,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.DashboardCode.userFunc0xad93f0 = function(runtimeScene) {
+};gdjs.DashboardCode.userFunc0x8fc780 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2639,7 +2639,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.DashboardCode.userFunc0xad93f0(runtimeScene);
+gdjs.DashboardCode.userFunc0x8fc780(runtimeScene);
 
 }
 
@@ -3300,6 +3300,51 @@ gdjs.copyArray(runtimeScene.getObjects("DevPopup"), gdjs.DashboardCode.GDDevPopu
 {
 
 
+gdjs.DashboardCode.condition0IsTrue_0.val = false;
+{
+gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.DashboardCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.firebaseTools.remoteConfig.setDefaultConfig(runtimeScene.getVariables().get("Maintenance"));
+}}
+
+}
+
+
+{
+
+
+{
+{runtimeScene.getVariables().get("Maintenance").setString(firebase.remoteConfig().getString("Maintenance"));
+}}
+
+}
+
+
+{
+
+
+gdjs.DashboardCode.condition0IsTrue_0.val = false;
+gdjs.DashboardCode.condition1IsTrue_0.val = false;
+{
+gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("Maintenance")) == "true";
+}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
+{
+{gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13899652);
+}
+}}
+if (gdjs.DashboardCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Maintenance", false);
+}}
+
+}
+
+
+};gdjs.DashboardCode.eventsList30 = function(runtimeScene) {
+
+{
+
+
 
 }
 
@@ -3424,6 +3469,13 @@ gdjs.DashboardCode.eventsList27(runtimeScene);
 
 
 gdjs.DashboardCode.eventsList28(runtimeScene);
+}
+
+
+{
+
+
+gdjs.DashboardCode.eventsList29(runtimeScene);
 }
 
 
@@ -3715,7 +3767,7 @@ gdjs.DashboardCode.GDAvezzoLogoObjects4.length = 0;
 gdjs.DashboardCode.GDAvezzoLogoObjects5.length = 0;
 gdjs.DashboardCode.GDAvezzoLogoObjects6.length = 0;
 
-gdjs.DashboardCode.eventsList29(runtimeScene);
+gdjs.DashboardCode.eventsList30(runtimeScene);
 return;
 
 }

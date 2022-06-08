@@ -64,7 +64,7 @@ gdjs.copyArray(runtimeScene.getObjects("NavMilestone"), gdjs.MilestoneCode.GDNav
 gdjs.copyArray(runtimeScene.getObjects("NavProfile"), gdjs.MilestoneCode.GDNavProfileObjects3);
 gdjs.copyArray(runtimeScene.getObjects("NavigationUI"), gdjs.MilestoneCode.GDNavigationUIObjects3);
 {for(var i = 0, len = gdjs.MilestoneCode.GDNavigationUIObjects3.length ;i < len;++i) {
-    gdjs.MilestoneCode.GDNavigationUIObjects3[i].setAnimation(1);
+    gdjs.MilestoneCode.GDNavigationUIObjects3[i].setAnimation(3);
 }
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.MilestoneCode.mapOfGDgdjs_46MilestoneCode_46GDNavigationUIObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{gdjs.evtsExt__AlignObject__ToSceneBottom.func(runtimeScene, gdjs.MilestoneCode.mapOfGDgdjs_46MilestoneCode_46GDNavHomeObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));

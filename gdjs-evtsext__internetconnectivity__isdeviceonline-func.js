@@ -11,7 +11,7 @@ gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.conditionTrue_0 = {val:false}
 gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.userFunc0xcc7b50 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.userFunc0xb1d528 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = typeof navigator !== "undefined" && navigator.onLine;
 
@@ -22,7 +22,7 @@ gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.userFunc0xcc7b50(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InternetConnectivity__IsDeviceOnline.userFunc0xb1d528(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

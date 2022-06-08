@@ -1838,7 +1838,7 @@ if (gdjs.CashoutCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.CashoutCode.userFunc0xaf5470 = function(runtimeScene) {
+};gdjs.CashoutCode.userFunc0xc87040 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -1918,7 +1918,7 @@ if (gdjs.CashoutCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.CashoutCode.userFunc0xaf5470(runtimeScene);
+gdjs.CashoutCode.userFunc0xc87040(runtimeScene);
 
 }
 
