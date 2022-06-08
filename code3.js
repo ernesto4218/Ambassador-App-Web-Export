@@ -32,7 +32,7 @@ gdjs.TestingCode.condition1IsTrue_1 = {val:false};
 gdjs.TestingCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TestingCode.userFunc0xca2a08 = function(runtimeScene) {
+gdjs.TestingCode.userFunc0xad0df8 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -132,7 +132,7 @@ gdjs.TestingCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runti
 }if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12771836);
+gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13476316);
 }
 }}
 if (gdjs.TestingCode.condition1IsTrue_0.val) {
@@ -152,7 +152,7 @@ gdjs.TestingCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runti
 }if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12773492);
+gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13477972);
 }
 }}
 if (gdjs.TestingCode.condition1IsTrue_0.val) {
@@ -196,7 +196,7 @@ for(var i = 0, k = 0, l = gdjs.TestingCode.GDButtonObjects1.length;i<l;++i) {
 gdjs.TestingCode.GDButtonObjects1.length = k;}if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12775028);
+gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13479508);
 }
 }}
 if (gdjs.TestingCode.condition1IsTrue_0.val) {
@@ -226,7 +226,7 @@ for(var i = 0, k = 0, l = gdjs.TestingCode.GDButton2Objects1.length;i<l;++i) {
 gdjs.TestingCode.GDButton2Objects1.length = k;}if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12771340);
+gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13475820);
 }
 }}
 if (gdjs.TestingCode.condition1IsTrue_0.val) {
@@ -249,7 +249,7 @@ if (gdjs.TestingCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.TestingCode.userFunc0xca2a08(runtimeScene);
+gdjs.TestingCode.userFunc0xad0df8(runtimeScene);
 
 }
 

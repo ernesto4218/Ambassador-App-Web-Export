@@ -52,7 +52,7 @@ gdjs.TasksCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 }if ( gdjs.TasksCode.condition1IsTrue_0.val ) {
 {
 {gdjs.TasksCode.conditionTrue_1 = gdjs.TasksCode.condition2IsTrue_0;
-gdjs.TasksCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13044428);
+gdjs.TasksCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13711660);
 }
 }}
 }

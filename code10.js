@@ -170,7 +170,7 @@ gdjs.MilestoneCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.MilestoneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MilestoneCode.conditionTrue_1 = gdjs.MilestoneCode.condition2IsTrue_0;
-gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13214900);
+gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13826980);
 }
 }}
 }
@@ -203,7 +203,7 @@ gdjs.MilestoneCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.MilestoneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MilestoneCode.conditionTrue_1 = gdjs.MilestoneCode.condition2IsTrue_0;
-gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13089804);
+gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13828564);
 }
 }}
 }
@@ -236,7 +236,7 @@ gdjs.MilestoneCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.MilestoneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MilestoneCode.conditionTrue_1 = gdjs.MilestoneCode.condition2IsTrue_0;
-gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12352620);
+gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13830420);
 }
 }}
 }
@@ -269,7 +269,7 @@ gdjs.MilestoneCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.MilestoneCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MilestoneCode.conditionTrue_1 = gdjs.MilestoneCode.condition2IsTrue_0;
-gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12872884);
+gdjs.MilestoneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13831908);
 }
 }}
 }

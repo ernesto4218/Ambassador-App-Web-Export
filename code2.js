@@ -98,7 +98,7 @@ gdjs.NoInternetCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.NoInternetCode.condition1IsTrue_0.val ) {
 {
 {gdjs.NoInternetCode.conditionTrue_1 = gdjs.NoInternetCode.condition2IsTrue_0;
-gdjs.NoInternetCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12756860);
+gdjs.NoInternetCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13461148);
 }
 }}
 }
