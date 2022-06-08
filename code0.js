@@ -2559,7 +2559,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.DashboardCode.userFunc0xb240f0 = function(runtimeScene) {
+};gdjs.DashboardCode.userFunc0xad93f0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2639,7 +2639,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.DashboardCode.userFunc0xb240f0(runtimeScene);
+gdjs.DashboardCode.userFunc0xad93f0(runtimeScene);
 
 }
 
@@ -3239,7 +3239,7 @@ gdjs.copyArray(runtimeScene.getObjects("DevPopup"), gdjs.DashboardCode.GDDevPopu
     gdjs.DashboardCode.GDBlackBGObjects2[i].setX(0);
 }
 }{for(var i = 0, len = gdjs.DashboardCode.GDCloseDevPopupObjects2.length ;i < len;++i) {
-    gdjs.DashboardCode.GDCloseDevPopupObjects2[i].setCenterXInScene((( gdjs.DashboardCode.GDDevPopupObjects2.length === 0 ) ? 0 :gdjs.DashboardCode.GDDevPopupObjects2[0].getPointX("Close")));
+    gdjs.DashboardCode.GDCloseDevPopupObjects2[i].setCenterPositionInScene((( gdjs.DashboardCode.GDDevPopupObjects2.length === 0 ) ? 0 :gdjs.DashboardCode.GDDevPopupObjects2[0].getPointX("Close")),(( gdjs.DashboardCode.GDDevPopupObjects2.length === 0 ) ? 0 :gdjs.DashboardCode.GDDevPopupObjects2[0].getPointY("Close")));
 }
 }{for(var i = 0, len = gdjs.DashboardCode.GDCloseDevPopupObjects2.length ;i < len;++i) {
     gdjs.DashboardCode.GDCloseDevPopupObjects2[i].setOpacity(0);
