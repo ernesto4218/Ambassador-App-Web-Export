@@ -2601,7 +2601,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.DashboardCode.userFunc0x7adcc8 = function(runtimeScene) {
+};gdjs.DashboardCode.userFunc0x8926c0 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2681,7 +2681,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.DashboardCode.userFunc0x7adcc8(runtimeScene);
+gdjs.DashboardCode.userFunc0x8926c0(runtimeScene);
 
 }
 
