@@ -11,6 +11,8 @@ gdjs.NoInternetCode.GDNavCashoutObjects1= [];
 gdjs.NoInternetCode.GDNavCashoutObjects2= [];
 gdjs.NoInternetCode.GDProcessingObjects1= [];
 gdjs.NoInternetCode.GDProcessingObjects2= [];
+gdjs.NoInternetCode.GDEarnScorePointsObjects1= [];
+gdjs.NoInternetCode.GDEarnScorePointsObjects2= [];
 gdjs.NoInternetCode.GDcontentObjects1= [];
 gdjs.NoInternetCode.GDcontentObjects2= [];
 gdjs.NoInternetCode.GDRefreshObjects1= [];
@@ -98,7 +100,7 @@ gdjs.NoInternetCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(
 }if ( gdjs.NoInternetCode.condition1IsTrue_0.val ) {
 {
 {gdjs.NoInternetCode.conditionTrue_1 = gdjs.NoInternetCode.condition2IsTrue_0;
-gdjs.NoInternetCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13461148);
+gdjs.NoInternetCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13665676);
 }
 }}
 }
@@ -144,6 +146,8 @@ gdjs.NoInternetCode.GDNavCashoutObjects1.length = 0;
 gdjs.NoInternetCode.GDNavCashoutObjects2.length = 0;
 gdjs.NoInternetCode.GDProcessingObjects1.length = 0;
 gdjs.NoInternetCode.GDProcessingObjects2.length = 0;
+gdjs.NoInternetCode.GDEarnScorePointsObjects1.length = 0;
+gdjs.NoInternetCode.GDEarnScorePointsObjects2.length = 0;
 gdjs.NoInternetCode.GDcontentObjects1.length = 0;
 gdjs.NoInternetCode.GDcontentObjects2.length = 0;
 gdjs.NoInternetCode.GDRefreshObjects1.length = 0;

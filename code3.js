@@ -11,6 +11,8 @@ gdjs.TestingCode.GDNavCashoutObjects1= [];
 gdjs.TestingCode.GDNavCashoutObjects2= [];
 gdjs.TestingCode.GDProcessingObjects1= [];
 gdjs.TestingCode.GDProcessingObjects2= [];
+gdjs.TestingCode.GDEarnScorePointsObjects1= [];
+gdjs.TestingCode.GDEarnScorePointsObjects2= [];
 gdjs.TestingCode.GDtext1Objects1= [];
 gdjs.TestingCode.GDtext1Objects2= [];
 gdjs.TestingCode.GDtext12Objects1= [];
@@ -21,6 +23,12 @@ gdjs.TestingCode.GDButton2Objects1= [];
 gdjs.TestingCode.GDButton2Objects2= [];
 gdjs.TestingCode.GDButton3Objects1= [];
 gdjs.TestingCode.GDButton3Objects2= [];
+gdjs.TestingCode.GDBlockObjects1= [];
+gdjs.TestingCode.GDBlockObjects2= [];
+gdjs.TestingCode.GDBlock2Objects1= [];
+gdjs.TestingCode.GDBlock2Objects2= [];
+gdjs.TestingCode.GDBlock3Objects1= [];
+gdjs.TestingCode.GDBlock3Objects2= [];
 
 gdjs.TestingCode.conditionTrue_0 = {val:false};
 gdjs.TestingCode.condition0IsTrue_0 = {val:false};
@@ -32,7 +40,7 @@ gdjs.TestingCode.condition1IsTrue_1 = {val:false};
 gdjs.TestingCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TestingCode.userFunc0xb27ac0 = function(runtimeScene) {
+gdjs.TestingCode.userFunc0x7b2140 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -101,14 +109,45 @@ gdjs.TestingCode.eventsList0 = function(runtimeScene) {
 {
 
 
-{
-gdjs.copyArray(runtimeScene.getObjects("text1"), gdjs.TestingCode.GDtext1Objects1);
-gdjs.copyArray(runtimeScene.getObjects("text12"), gdjs.TestingCode.GDtext12Objects1);
-{for(var i = 0, len = gdjs.TestingCode.GDtext12Objects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDtext12Objects1[i].setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("googlesign")));
+
 }
-}{for(var i = 0, len = gdjs.TestingCode.GDtext1Objects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDtext1Objects1[i].setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("signinstate")));
+
+
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("Block2"), gdjs.TestingCode.GDBlock2Objects1);
+{for(var i = 0, len = gdjs.TestingCode.GDBlock2Objects1.length ;i < len;++i) {
+    gdjs.TestingCode.GDBlock2Objects1[i].setX(gdjs.TestingCode.GDBlock2Objects1[i].getX() - (100));
 }
 }}
 
@@ -118,6 +157,12 @@ gdjs.copyArray(runtimeScene.getObjects("text12"), gdjs.TestingCode.GDtext12Objec
 {
 
 
+gdjs.TestingCode.condition0IsTrue_0.val = false;
+{
+gdjs.TestingCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.TestingCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.firebaseTools.auth.signInWithEmail("ernesto@gmail.com", "Feb32003", gdjs.VariablesContainer.badVariable);
+}}
 
 }
 
@@ -132,31 +177,12 @@ gdjs.TestingCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runti
 }if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
 {
 {gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13476316);
+gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13686316);
 }
 }}
 if (gdjs.TestingCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.firebaseTools.auth.userManagement.dangerous.changePassword("test2@gmail.com", "Feb32003", "Ernesto4218", false, runtimeScene.getVariables().get("EditPassState"));
-}}
-
-}
-
-
-{
-
-
-gdjs.TestingCode.condition0IsTrue_0.val = false;
-gdjs.TestingCode.condition1IsTrue_0.val = false;
-{
-gdjs.TestingCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "LShift");
-}if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
-{
-{gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13477972);
-}
-}}
-if (gdjs.TestingCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.firebaseTools.auth.signInWithProvider("google", runtimeScene.getVariables().get("googlesign"));
+{gdjs.evtTools.firebaseTools.firestore.getDocument("users", "test", runtimeScene.getVariables().get("Stamp"), gdjs.VariablesContainer.badVariable);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("users", "test", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("date_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("month_var")) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("year_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("time_var")), "A friend used invite code", gdjs.VariablesContainer.badVariable, true);
 }}
 
 }
@@ -166,73 +192,9 @@ if (gdjs.TestingCode.condition1IsTrue_0.val) {
 
 
 {
-gdjs.copyArray(runtimeScene.getObjects("Button"), gdjs.TestingCode.GDButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Button2"), gdjs.TestingCode.GDButton2Objects1);
-{for(var i = 0, len = gdjs.TestingCode.GDButtonObjects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDButtonObjects1[i].getBehavior("TopDownMovement").simulateLeftKey();
-}
-}{for(var i = 0, len = gdjs.TestingCode.GDButton2Objects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDButton2Objects1[i].getBehavior("TopDownMovement").simulateLeftKey();
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Button"), gdjs.TestingCode.GDButtonObjects1);
-
-gdjs.TestingCode.condition0IsTrue_0.val = false;
-gdjs.TestingCode.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.TestingCode.GDButtonObjects1.length;i<l;++i) {
-    if ( gdjs.TestingCode.GDButtonObjects1[i].getX() <= -(164) ) {
-        gdjs.TestingCode.condition0IsTrue_0.val = true;
-        gdjs.TestingCode.GDButtonObjects1[k] = gdjs.TestingCode.GDButtonObjects1[i];
-        ++k;
-    }
-}
-gdjs.TestingCode.GDButtonObjects1.length = k;}if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
-{
-{gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13479508);
-}
-}}
-if (gdjs.TestingCode.condition1IsTrue_0.val) {
-/* Reuse gdjs.TestingCode.GDButtonObjects1 */
-{for(var i = 0, len = gdjs.TestingCode.GDButtonObjects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDButtonObjects1[i].setX(720);
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Button2"), gdjs.TestingCode.GDButton2Objects1);
-
-gdjs.TestingCode.condition0IsTrue_0.val = false;
-gdjs.TestingCode.condition1IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.TestingCode.GDButton2Objects1.length;i<l;++i) {
-    if ( gdjs.TestingCode.GDButton2Objects1[i].getX() <= -(164) ) {
-        gdjs.TestingCode.condition0IsTrue_0.val = true;
-        gdjs.TestingCode.GDButton2Objects1[k] = gdjs.TestingCode.GDButton2Objects1[i];
-        ++k;
-    }
-}
-gdjs.TestingCode.GDButton2Objects1.length = k;}if ( gdjs.TestingCode.condition0IsTrue_0.val ) {
-{
-{gdjs.TestingCode.conditionTrue_1 = gdjs.TestingCode.condition1IsTrue_0;
-gdjs.TestingCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13475820);
-}
-}}
-if (gdjs.TestingCode.condition1IsTrue_0.val) {
-/* Reuse gdjs.TestingCode.GDButton2Objects1 */
-{for(var i = 0, len = gdjs.TestingCode.GDButton2Objects1.length ;i < len;++i) {
-    gdjs.TestingCode.GDButton2Objects1[i].setX(720);
+gdjs.copyArray(runtimeScene.getObjects("text1"), gdjs.TestingCode.GDtext1Objects1);
+{for(var i = 0, len = gdjs.TestingCode.GDtext1Objects1.length ;i < len;++i) {
+    gdjs.TestingCode.GDtext1Objects1[i].setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("Date")));
 }
 }}
 
@@ -249,7 +211,7 @@ if (gdjs.TestingCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.TestingCode.userFunc0xb27ac0(runtimeScene);
+gdjs.TestingCode.userFunc0x7b2140(runtimeScene);
 
 }
 
@@ -271,6 +233,8 @@ gdjs.TestingCode.GDNavCashoutObjects1.length = 0;
 gdjs.TestingCode.GDNavCashoutObjects2.length = 0;
 gdjs.TestingCode.GDProcessingObjects1.length = 0;
 gdjs.TestingCode.GDProcessingObjects2.length = 0;
+gdjs.TestingCode.GDEarnScorePointsObjects1.length = 0;
+gdjs.TestingCode.GDEarnScorePointsObjects2.length = 0;
 gdjs.TestingCode.GDtext1Objects1.length = 0;
 gdjs.TestingCode.GDtext1Objects2.length = 0;
 gdjs.TestingCode.GDtext12Objects1.length = 0;
@@ -281,6 +245,12 @@ gdjs.TestingCode.GDButton2Objects1.length = 0;
 gdjs.TestingCode.GDButton2Objects2.length = 0;
 gdjs.TestingCode.GDButton3Objects1.length = 0;
 gdjs.TestingCode.GDButton3Objects2.length = 0;
+gdjs.TestingCode.GDBlockObjects1.length = 0;
+gdjs.TestingCode.GDBlockObjects2.length = 0;
+gdjs.TestingCode.GDBlock2Objects1.length = 0;
+gdjs.TestingCode.GDBlock2Objects2.length = 0;
+gdjs.TestingCode.GDBlock3Objects1.length = 0;
+gdjs.TestingCode.GDBlock3Objects2.length = 0;
 
 gdjs.TestingCode.eventsList0(runtimeScene);
 return;

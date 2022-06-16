@@ -35,6 +35,12 @@ gdjs.DashboardCode.GDProcessingObjects3= [];
 gdjs.DashboardCode.GDProcessingObjects4= [];
 gdjs.DashboardCode.GDProcessingObjects5= [];
 gdjs.DashboardCode.GDProcessingObjects6= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects1= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects2= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects3= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects4= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects5= [];
+gdjs.DashboardCode.GDEarnScorePointsObjects6= [];
 gdjs.DashboardCode.GDHeaderContainerObjects1= [];
 gdjs.DashboardCode.GDHeaderContainerObjects2= [];
 gdjs.DashboardCode.GDHeaderContainerObjects3= [];
@@ -291,6 +297,7 @@ gdjs.DashboardCode.condition4IsTrue_0 = {val:false};
 gdjs.DashboardCode.condition5IsTrue_0 = {val:false};
 gdjs.DashboardCode.condition6IsTrue_0 = {val:false};
 gdjs.DashboardCode.condition7IsTrue_0 = {val:false};
+gdjs.DashboardCode.condition8IsTrue_0 = {val:false};
 gdjs.DashboardCode.conditionTrue_1 = {val:false};
 gdjs.DashboardCode.condition0IsTrue_1 = {val:false};
 gdjs.DashboardCode.condition1IsTrue_1 = {val:false};
@@ -300,6 +307,7 @@ gdjs.DashboardCode.condition4IsTrue_1 = {val:false};
 gdjs.DashboardCode.condition5IsTrue_1 = {val:false};
 gdjs.DashboardCode.condition6IsTrue_1 = {val:false};
 gdjs.DashboardCode.condition7IsTrue_1 = {val:false};
+gdjs.DashboardCode.condition8IsTrue_1 = {val:false};
 
 
 gdjs.DashboardCode.eventsList0 = function(runtimeScene) {
@@ -522,7 +530,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13191940);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13390716);
 }
 }}
 }
@@ -555,7 +563,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13193212);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13391988);
 }
 }}
 }
@@ -588,7 +596,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13194444);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13393220);
 }
 }}
 }
@@ -621,7 +629,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13195684);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13394460);
 }
 }}
 }
@@ -684,7 +692,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDTotalSalesTXTObjects2.length;i<l;
 gdjs.DashboardCode.GDTotalSalesTXTObjects2.length = k;}if ( gdjs.DashboardCode.condition3IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition4IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13197700);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13396476);
 }
 }}
 }
@@ -716,7 +724,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerE
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13198860);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13397636);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -929,6 +937,24 @@ gdjs.copyArray(runtimeScene.getObjects("TotalInvitesTXT"), gdjs.DashboardCode.GD
 }
 
 
+{
+
+
+
+}
+
+
+{
+
+
+{
+{runtimeScene.getGame().getVariables().get("Tasks").getChild("ReactPinnedPost").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("FetchDocData").getChild("Tasks").getChild("ReactPinnedPost")));
+}{runtimeScene.getGame().getVariables().get("Tasks").getChild("LikeFBPage").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("FetchDocData").getChild("Tasks").getChild("LikeFBPage")));
+}}
+
+}
+
+
 };gdjs.DashboardCode.eventsList6 = function(runtimeScene) {
 
 {
@@ -948,7 +974,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13203372);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13402052);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1282,7 +1308,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralButtonObjects4.lengt
 gdjs.DashboardCode.GDEnterReferralButtonObjects4.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13239084);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13437764);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1315,7 +1341,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralButtonObjects3.lengt
 gdjs.DashboardCode.GDEnterReferralButtonObjects3.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13239884);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13438564);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1375,7 +1401,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEarnReferalPointsContinueObjects3
 gdjs.DashboardCode.GDEarnReferalPointsContinueObjects3.length = k;}if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition3IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13264732);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13466476);
 }
 }}
 }
@@ -1407,7 +1433,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEarnReferalPointsContinueObjects3
 gdjs.DashboardCode.GDEarnReferalPointsContinueObjects3.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13265268);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13467012);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1440,7 +1466,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEarnReferalPointsContinueObjects2
 gdjs.DashboardCode.GDEarnReferalPointsContinueObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13266716);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13468460);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1492,7 +1518,7 @@ gdjs.DashboardCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableBo
 }if ( gdjs.DashboardCode.condition3IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition4IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13223140);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13421820);
 }
 }}
 }
@@ -1557,7 +1583,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralCodeStateTXTObjects3
 gdjs.DashboardCode.GDEnterReferralCodeStateTXTObjects3.length = k;}if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13236020);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13434700);
 }
 }}
 }
@@ -1615,7 +1641,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13242132);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13440812);
 }
 }}
 }
@@ -1641,7 +1667,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13242508);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13441188);
 }
 }}
 }
@@ -1673,7 +1699,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13245156);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13443836);
 }
 }}
 }
@@ -1715,7 +1741,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13246884);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13445564);
 }
 }}
 }
@@ -1752,7 +1778,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13249180);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13447860);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1796,7 +1822,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13251460);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13450140);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -1848,7 +1874,7 @@ gdjs.DashboardCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition3IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13254348);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13453028);
 }
 }}
 }
@@ -1857,11 +1883,14 @@ if (gdjs.DashboardCode.condition3IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("EnterReferralCodeInput"), gdjs.DashboardCode.GDEnterReferralCodeInputObjects3);
 {runtimeScene.getGame().getVariables().get("Variables").getChild("Balance").setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("FetchBalPoints").getChild("Variables").getChild("Balance")) + 5);
 }{runtimeScene.getGame().getVariables().get("Variables").getChild("Points").setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("FetchBalPoints").getChild("Variables").getChild("Points")) + 5);
+}{runtimeScene.getGame().getVariables().get("Variables").getChild("Score").setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("FetchBalPoints").getChild("Variables").getChild("Score")) + 10);
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Variables.Balance", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("Variables").getChild("Balance")), runtimeScene.getVariables().get("GetBalanceForReferralState"));
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Variables.Points", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("Variables").getChild("Points")), runtimeScene.getVariables().get("GetPointsForReferralState"));
+}{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "Variables.Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("Variables").getChild("Score")), runtimeScene.getVariables().get("GetScoreForReferralState"));
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ProfileInfo.Invite.ReferralCode", (( gdjs.DashboardCode.GDEnterReferralCodeInputObjects3.length === 0 ) ? "" :gdjs.DashboardCode.GDEnterReferralCodeInputObjects3[0].getString()), gdjs.VariablesContainer.badVariable);
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ProfileInfo.Invite.Name", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("User").getChild("FullName")), gdjs.VariablesContainer.badVariable);
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), "ProfileInfo.Invite.Date", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("date_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("month_var")) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("year_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("time_var")), gdjs.VariablesContainer.badVariable);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("Logs", gdjs.evtTools.firebaseTools.auth.userManagement.getUID(), gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("date_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("month_var")) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("year_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("time_var")), "Enter Invite Code", gdjs.VariablesContainer.badVariable, true);
 }}
 
 }
@@ -1880,6 +1909,7 @@ gdjs.copyArray(runtimeScene.getObjects("EnterReferralCodeInput"), gdjs.Dashboard
 gdjs.DashboardCode.condition0IsTrue_0.val = false;
 gdjs.DashboardCode.condition1IsTrue_0.val = false;
 gdjs.DashboardCode.condition2IsTrue_0.val = false;
+gdjs.DashboardCode.condition3IsTrue_0.val = false;
 {
 gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetBalanceForReferralState")) == "ok";
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
@@ -1887,16 +1917,23 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetPointsForReferralState")) == "ok";
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
-{gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13258108);
+gdjs.DashboardCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetScoreForReferralState")) == "ok";
+}if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
+{
+{gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition3IsTrue_0;
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13458044);
 }
 }}
 }
-if (gdjs.DashboardCode.condition2IsTrue_0.val) {
+}
+if (gdjs.DashboardCode.condition3IsTrue_0.val) {
 {runtimeScene.getVariables().get("UpdateReferrerPoints").setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("Variables").getChild("Points"))) + 5);
 }{runtimeScene.getVariables().get("UpdateReferrerInvites").setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("Variables").getChild("Invites"))) + 1);
+}{runtimeScene.getVariables().get("UpdateReferrerScore").setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("Variables").getChild("Score"))) + 10);
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("User").getChild("DocumentID")), "Variables.Points", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("UpdateReferrerPoints")), runtimeScene.getVariables().get("UpdateReferrerPointsState"));
 }{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("User").getChild("DocumentID")), "Variables.Invites", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("UpdateReferrerInvites")), runtimeScene.getVariables().get("UpdateReferrerPointsState"));
+}{gdjs.evtTools.firebaseTools.firestore.updateField("users", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("User").getChild("DocumentID")), "Variables.Score", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("UpdateReferrerScore")), runtimeScene.getVariables().get("UpdateReferrerScoreState"));
+}{gdjs.evtTools.firebaseTools.firestore.writeField("Logs", gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCode").getChild("docs").getChild(0).getChild("data").getChild("User").getChild("DocumentID")), gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("date_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("month_var")) + " " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("year_var")) + ", " + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("time_var")), "A friend used invite code", gdjs.VariablesContainer.badVariable, true);
 }}
 
 }
@@ -1919,6 +1956,7 @@ gdjs.DashboardCode.condition3IsTrue_0.val = false;
 gdjs.DashboardCode.condition4IsTrue_0.val = false;
 gdjs.DashboardCode.condition5IsTrue_0.val = false;
 gdjs.DashboardCode.condition6IsTrue_0.val = false;
+gdjs.DashboardCode.condition7IsTrue_0.val = false;
 {
 gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetBalanceForReferralState")) == "ok";
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
@@ -1926,20 +1964,23 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetPointsForReferralState")) == "ok";
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
-gdjs.DashboardCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("FetchBalPointsState")) == "ok";
+gdjs.DashboardCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetScoreForReferralState")) == "ok";
 }if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
 {
-gdjs.DashboardCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCodeState")) == "ok";
+gdjs.DashboardCode.condition3IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("FetchBalPointsState")) == "ok";
 }if ( gdjs.DashboardCode.condition3IsTrue_0.val ) {
 {
-gdjs.DashboardCode.condition4IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("RefUserExists")) == "true";
+gdjs.DashboardCode.condition4IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("GetRefCodeState")) == "ok";
 }if ( gdjs.DashboardCode.condition4IsTrue_0.val ) {
 {
-gdjs.DashboardCode.condition5IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("UpdateReferrerPointsState")) == "ok";
+gdjs.DashboardCode.condition5IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("RefUserExists")) == "true";
 }if ( gdjs.DashboardCode.condition5IsTrue_0.val ) {
 {
-{gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition6IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13262044);
+gdjs.DashboardCode.condition6IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("UpdateReferrerPointsState")) == "ok";
+}if ( gdjs.DashboardCode.condition6IsTrue_0.val ) {
+{
+{gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition7IsTrue_0;
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13463972);
 }
 }}
 }
@@ -1947,7 +1988,8 @@ gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerO
 }
 }
 }
-if (gdjs.DashboardCode.condition6IsTrue_0.val) {
+}
+if (gdjs.DashboardCode.condition7IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("EarnReferalPointsContinue"), gdjs.DashboardCode.GDEarnReferalPointsContinueObjects3);
 gdjs.copyArray(runtimeScene.getObjects("EarnReferralPoints"), gdjs.DashboardCode.GDEarnReferralPointsObjects3);
 gdjs.copyArray(runtimeScene.getObjects("EnterReferralButton"), gdjs.DashboardCode.GDEnterReferralButtonObjects3);
@@ -2069,7 +2111,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralBTNObjects2.length;i
 gdjs.DashboardCode.GDEnterReferralBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition5IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition6IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13216932);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13415612);
 }
 }}
 }
@@ -2103,7 +2145,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralBTNObjects2.length;i
 gdjs.DashboardCode.GDEnterReferralBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13217980);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13416660);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2136,7 +2178,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralBTNObjects2.length;i
 gdjs.DashboardCode.GDEnterReferralBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13217676);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13416356);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2176,7 +2218,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13268676);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13470420);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2215,7 +2257,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13270364);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13472108);
 }
 }}
 }
@@ -2268,7 +2310,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDInviteBTNObjects2.length;i<l;++i)
 gdjs.DashboardCode.GDInviteBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition4IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition5IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13273620);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13475364);
 }
 }}
 }
@@ -2302,7 +2344,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDInviteBTNObjects2.length;i<l;++i)
 gdjs.DashboardCode.GDInviteBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13274652);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13476396);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2335,7 +2377,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDInviteBTNObjects1.length;i<l;++i)
 gdjs.DashboardCode.GDInviteBTNObjects1.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13275908);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13477652);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2375,7 +2417,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDEnterReferralContainerObjects2.le
 gdjs.DashboardCode.GDEnterReferralContainerObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13277452);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13479196);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2417,7 +2459,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13279436);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13481180);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2478,7 +2520,7 @@ gdjs.DashboardCode.condition4IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(g
 }if ( gdjs.DashboardCode.condition4IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition5IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13281932);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13483676);
 }
 }}
 }
@@ -2512,7 +2554,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDTaskBTNObjects2.length;i<l;++i) {
 gdjs.DashboardCode.GDTaskBTNObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13279588);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13481332);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2545,7 +2587,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDTaskBTNObjects1.length;i<l;++i) {
 gdjs.DashboardCode.GDTaskBTNObjects1.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13284252);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13485996);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2559,7 +2601,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.DashboardCode.userFunc0x8fc780 = function(runtimeScene) {
+};gdjs.DashboardCode.userFunc0x7adcc8 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -2639,7 +2681,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.DashboardCode.userFunc0x8fc780(runtimeScene);
+gdjs.DashboardCode.userFunc0x7adcc8(runtimeScene);
 
 }
 
@@ -2662,7 +2704,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13286244);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13487988);
 }
 }}
 }
@@ -2715,7 +2757,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13289028);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13490772);
 }
 }}
 }
@@ -2766,7 +2808,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13291668);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13493412);
 }
 }}
 }
@@ -2813,7 +2855,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13293500);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13495244);
 }
 }}
 }
@@ -2844,7 +2886,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDVerifypopupbuttonObjects2.length;
 gdjs.DashboardCode.GDVerifypopupbuttonObjects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13294124);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13495868);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2877,7 +2919,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDVerifypopupbuttonObjects1.length;
 gdjs.DashboardCode.GDVerifypopupbuttonObjects1.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13295300);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13497044);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -2920,7 +2962,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDFreeProductsContainer2Objects2.le
 gdjs.DashboardCode.GDFreeProductsContainer2Objects2.length = k;}if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition3IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13298068);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13499812);
 }
 }}
 }
@@ -2964,7 +3006,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDFreeProductsContainerObjects1.len
 gdjs.DashboardCode.GDFreeProductsContainerObjects1.length = k;}if ( gdjs.DashboardCode.condition2IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition3IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13300044);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13501788);
 }
 }}
 }
@@ -3047,7 +3089,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDNewsUpdateContent1Objects2.length
 gdjs.DashboardCode.GDNewsUpdateContent1Objects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13304788);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13506532);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -3077,7 +3119,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDNewsUpdateContent2Objects2.length
 gdjs.DashboardCode.GDNewsUpdateContent2Objects2.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13305692);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13507436);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -3107,7 +3149,7 @@ for(var i = 0, k = 0, l = gdjs.DashboardCode.GDNewsUpdateContent3Objects1.length
 gdjs.DashboardCode.GDNewsUpdateContent3Objects1.length = k;}if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13306564);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13508308);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -3120,7 +3162,7 @@ if (gdjs.DashboardCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.DashboardCode.asyncCallback13308212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.DashboardCode.asyncCallback13509956 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("TelegramMessage"), gdjs.DashboardCode.GDTelegramMessageObjects4);
 
 {for(var i = 0, len = gdjs.DashboardCode.GDTelegramMessageObjects4.length ;i < len;++i) {
@@ -3137,14 +3179,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.DashboardCode.GDTelegramMessageObjects3) asyncObjectsList.addObject("TelegramMessage", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.DashboardCode.asyncCallback13308212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.DashboardCode.asyncCallback13509956(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.DashboardCode.asyncCallback13307676 = function (runtimeScene, asyncObjectsList) {
+};gdjs.DashboardCode.asyncCallback13509420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("TelegramMessage"), gdjs.DashboardCode.GDTelegramMessageObjects3);
 {for(var i = 0, len = gdjs.DashboardCode.GDTelegramMessageObjects3.length ;i < len;++i) {
     gdjs.DashboardCode.GDTelegramMessageObjects3[i].getBehavior("Tween").addObjectPositionXTween("Show", 243, "easeInOutCubic", 500, false);
@@ -3161,7 +3203,7 @@ gdjs.DashboardCode.eventsList26 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(30), (runtimeScene) => (gdjs.DashboardCode.asyncCallback13307676(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(30), (runtimeScene) => (gdjs.DashboardCode.asyncCallback13509420(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3176,7 +3218,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(30),
 gdjs.DashboardCode.condition0IsTrue_0.val = false;
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition0IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13307420);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13509164);
 }
 }if (gdjs.DashboardCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("telegram"), gdjs.DashboardCode.GDtelegramObjects2);
@@ -3217,7 +3259,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13310196);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13511940);
 }
 }}
 }
@@ -3272,7 +3314,7 @@ gdjs.DashboardCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPre
 }if ( gdjs.DashboardCode.condition1IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition2IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13312548);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13514356);
 }
 }}
 }
@@ -3330,7 +3372,7 @@ gdjs.DashboardCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableSt
 }if ( gdjs.DashboardCode.condition0IsTrue_0.val ) {
 {
 {gdjs.DashboardCode.conditionTrue_1 = gdjs.DashboardCode.condition1IsTrue_0;
-gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13899652);
+gdjs.DashboardCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13517932);
 }
 }}
 if (gdjs.DashboardCode.condition1IsTrue_0.val) {
@@ -3520,6 +3562,12 @@ gdjs.DashboardCode.GDProcessingObjects3.length = 0;
 gdjs.DashboardCode.GDProcessingObjects4.length = 0;
 gdjs.DashboardCode.GDProcessingObjects5.length = 0;
 gdjs.DashboardCode.GDProcessingObjects6.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects1.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects2.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects3.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects4.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects5.length = 0;
+gdjs.DashboardCode.GDEarnScorePointsObjects6.length = 0;
 gdjs.DashboardCode.GDHeaderContainerObjects1.length = 0;
 gdjs.DashboardCode.GDHeaderContainerObjects2.length = 0;
 gdjs.DashboardCode.GDHeaderContainerObjects3.length = 0;

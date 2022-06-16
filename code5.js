@@ -17,6 +17,9 @@ gdjs.InviteCode.GDNavCashoutObjects3= [];
 gdjs.InviteCode.GDProcessingObjects1= [];
 gdjs.InviteCode.GDProcessingObjects2= [];
 gdjs.InviteCode.GDProcessingObjects3= [];
+gdjs.InviteCode.GDEarnScorePointsObjects1= [];
+gdjs.InviteCode.GDEarnScorePointsObjects2= [];
+gdjs.InviteCode.GDEarnScorePointsObjects3= [];
 gdjs.InviteCode.GDContentObjects1= [];
 gdjs.InviteCode.GDContentObjects2= [];
 gdjs.InviteCode.GDContentObjects3= [];
@@ -178,7 +181,7 @@ gdjs.InviteCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.InviteCode.condition1IsTrue_0.val ) {
 {
 {gdjs.InviteCode.conditionTrue_1 = gdjs.InviteCode.condition2IsTrue_0;
-gdjs.InviteCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13508324);
+gdjs.InviteCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13719996);
 }
 }}
 }
@@ -237,6 +240,9 @@ gdjs.InviteCode.GDNavCashoutObjects3.length = 0;
 gdjs.InviteCode.GDProcessingObjects1.length = 0;
 gdjs.InviteCode.GDProcessingObjects2.length = 0;
 gdjs.InviteCode.GDProcessingObjects3.length = 0;
+gdjs.InviteCode.GDEarnScorePointsObjects1.length = 0;
+gdjs.InviteCode.GDEarnScorePointsObjects2.length = 0;
+gdjs.InviteCode.GDEarnScorePointsObjects3.length = 0;
 gdjs.InviteCode.GDContentObjects1.length = 0;
 gdjs.InviteCode.GDContentObjects2.length = 0;
 gdjs.InviteCode.GDContentObjects3.length = 0;
