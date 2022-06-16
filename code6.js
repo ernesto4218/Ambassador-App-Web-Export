@@ -87,7 +87,7 @@ gdjs.VerificationCode.condition5IsTrue_1 = {val:false};
 gdjs.VerificationCode.condition6IsTrue_1 = {val:false};
 
 
-gdjs.VerificationCode.userFunc0xa16c38 = function(runtimeScene) {
+gdjs.VerificationCode.userFunc0x9de770 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -612,7 +612,7 @@ if (gdjs.VerificationCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.VerificationCode.userFunc0xa16c38(runtimeScene);
+gdjs.VerificationCode.userFunc0x9de770(runtimeScene);
 
 }
 

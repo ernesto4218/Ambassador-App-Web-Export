@@ -40,7 +40,7 @@ gdjs.TestingCode.condition1IsTrue_1 = {val:false};
 gdjs.TestingCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TestingCode.userFunc0x8e8a30 = function(runtimeScene) {
+gdjs.TestingCode.userFunc0x9dc448 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -211,7 +211,7 @@ gdjs.copyArray(runtimeScene.getObjects("text1"), gdjs.TestingCode.GDtext1Objects
 {
 
 
-gdjs.TestingCode.userFunc0x8e8a30(runtimeScene);
+gdjs.TestingCode.userFunc0x9dc448(runtimeScene);
 
 }
 

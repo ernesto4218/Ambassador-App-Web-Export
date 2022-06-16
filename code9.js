@@ -1845,7 +1845,7 @@ if (gdjs.CashoutCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.CashoutCode.userFunc0x9b6db8 = function(runtimeScene) {
+};gdjs.CashoutCode.userFunc0xa03c10 = function(runtimeScene) {
 "use strict";
 var time_var = runtimeScene.getVariables().get("time_var");
 var date_var = runtimeScene.getVariables().get("date_var");
@@ -1925,7 +1925,7 @@ if (gdjs.CashoutCode.condition1IsTrue_0.val) {
 {
 
 
-gdjs.CashoutCode.userFunc0x9b6db8(runtimeScene);
+gdjs.CashoutCode.userFunc0xa03c10(runtimeScene);
 
 }
 
